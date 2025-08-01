@@ -39,8 +39,8 @@ React Store is a modern e-commerce web application built with React by Lamiaa Ma
 
 1. Clone the repository
 bash
-git clone https://github.com/lamiaa-mamdouh/react-store.git
-cd react-store
+git clone https://github.com/lamyaa825/Final-Project-Graduate
+cd Final-Project-Graduate
 
 
 2. Install dependencies
