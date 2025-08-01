@@ -1,0 +1,44 @@
+.notFoundContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f7f9fc, #ffffff);
+}
+
+.notFoundContent {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.notFoundTitle {
+    font-size: 5rem;
+    color: #ff6f61;
+    margin-bottom: 1rem;
+}
+
+.notFoundText {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.notFoundButton {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.notFoundButton:hover {
+    background: linear-gradient(90deg, #5a0ea4, #1e5ed5);
+    transform: translateY(-2px);
+    text-decoration: none;
+}

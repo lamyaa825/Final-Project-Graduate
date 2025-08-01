@@ -1,0 +1,51 @@
+.custom-navbar {
+    background: linear-gradient(to right, #1f1f1f, #2c2c2c);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+    padding: 0.8rem 0;
+}
+
+.custom-navbar a {
+    text-decoration: none;
+}
+
+.custom-navbar .nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin: 0 0.2rem;
+}
+
+.custom-navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #6c63ff;
+    transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover::after,
+.custom-navbar .nav-link.active::after {
+    width: 100%;
+    left: 0;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+    color: #fff;
+}
+
+/* For better mobile experience */
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
